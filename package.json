@@ -1,6 +1,6 @@
 {
   "name": "ai-skills",
-  "version": "15.8.0",
+  "version": "1.0.0",
   "aasCore": {
     "includedFromMajor": 15,
     "status": "agent-first-preview"
