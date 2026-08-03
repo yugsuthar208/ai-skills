@@ -1,0 +1,19 @@
+{
+  "name": "agentic-bundle-integration-apis",
+  "version": "15.8.0",
+  "description": "Editorial \"Integration & APIs\" bundle for Claude Code from Agentic Awesome Skills.",
+  "author": {
+    "name": "yug and contributors",
+    "url": "https://github.com/yug/ai-skills"
+  },
+  "homepage": "https://github.com/yug/ai-skills",
+  "repository": "https://github.com/yug/ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "bundle",
+    "integration-apis",
+    "ai-skills"
+  ]
+}

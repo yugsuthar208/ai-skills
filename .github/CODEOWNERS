@@ -1,0 +1,10 @@
+# Global owners
+* @yug
+
+# Skills
+/skills/ @yug
+
+# Documentation
+*.md @yug
+
+/.github/CODEOWNERS @yug

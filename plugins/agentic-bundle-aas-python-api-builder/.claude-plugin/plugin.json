@@ -1,0 +1,19 @@
+{
+  "name": "agentic-bundle-aas-python-api-builder",
+  "version": "15.8.0",
+  "description": "Editorial \"AAS Python API Builder\" bundle for Claude Code from Agentic Awesome Skills.",
+  "author": {
+    "name": "yug and contributors",
+    "url": "https://github.com/yug/ai-skills"
+  },
+  "homepage": "https://github.com/yug/ai-skills",
+  "repository": "https://github.com/yug/ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "bundle",
+    "aas-python-api-builder",
+    "ai-skills"
+  ]
+}

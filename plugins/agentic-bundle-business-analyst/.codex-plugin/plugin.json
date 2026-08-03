@@ -1,0 +1,33 @@
+{
+  "name": "aasb-business-analyst",
+  "version": "15.8.0",
+  "description": "Install the \"Business Analyst\" editorial skill bundle from Agentic Awesome Skills.",
+  "author": {
+    "name": "yug and contributors",
+    "url": "https://github.com/yug/ai-skills"
+  },
+  "homepage": "https://github.com/yug/ai-skills",
+  "repository": "https://github.com/yug/ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "bundle",
+    "business-analyst",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Business Analyst",
+    "shortDescription": "Product & Business · 5 curated skills",
+    "longDescription": "For data-driven decision making. Covers Business Analyst, Startup Metrics Framework, and 3 more skills.",
+    "developerName": "yug and contributors",
+    "category": "Product & Business",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/yug/ai-skills",
+    "brandColor": "#111827"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "aasb-typescript-javascript",
+  "version": "15.8.0",
+  "description": "Install the \"TypeScript & JavaScript\" editorial skill bundle from Agentic Awesome Skills.",
+  "author": {
+    "name": "yug and contributors",
+    "url": "https://github.com/yug/ai-skills"
+  },
+  "homepage": "https://github.com/yug/ai-skills",
+  "repository": "https://github.com/yug/ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "bundle",
+    "typescript-javascript",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "TypeScript & JavaScript",
+    "shortDescription": "Backend & Languages · 5 curated skills",
+    "longDescription": "For modern web development. Covers Typescript Expert, Javascript Pro, and 3 more skills.",
+    "developerName": "yug and contributors",
+    "category": "Backend & Languages",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/yug/ai-skills",
+    "brandColor": "#111827"
+  }
+}

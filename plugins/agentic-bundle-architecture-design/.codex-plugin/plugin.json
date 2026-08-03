@@ -1,0 +1,33 @@
+{
+  "name": "aasb-architecture-design",
+  "version": "15.8.0",
+  "description": "Install the \"Architecture & Design\" editorial skill bundle from Agentic Awesome Skills.",
+  "author": {
+    "name": "yug and contributors",
+    "url": "https://github.com/yug/ai-skills"
+  },
+  "homepage": "https://github.com/yug/ai-skills",
+  "repository": "https://github.com/yug/ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "bundle",
+    "architecture-design",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Architecture & Design",
+    "shortDescription": "Specialized Packs · 5 curated skills",
+    "longDescription": "For system design and technical decisions. Covers Senior Architect, Architecture Patterns, and 3 more skills.",
+    "developerName": "yug and contributors",
+    "category": "Specialized Packs",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/yug/ai-skills",
+    "brandColor": "#111827"
+  }
+}

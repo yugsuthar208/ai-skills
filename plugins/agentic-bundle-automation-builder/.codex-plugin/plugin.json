@@ -1,0 +1,33 @@
+{
+  "name": "aasb-automation-builder",
+  "version": "15.8.0",
+  "description": "Install the \"Automation Builder\" editorial skill bundle from Agentic Awesome Skills.",
+  "author": {
+    "name": "yug and contributors",
+    "url": "https://github.com/yug/ai-skills"
+  },
+  "homepage": "https://github.com/yug/ai-skills",
+  "repository": "https://github.com/yug/ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "bundle",
+    "automation-builder",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Automation Builder",
+    "shortDescription": "Specialized Packs · 8 curated skills",
+    "longDescription": "For connecting tools and building repeatable automated workflows. Covers Workflow Automation, MCP Builder, and 6 more skills.",
+    "developerName": "yug and contributors",
+    "category": "Specialized Packs",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/yug/ai-skills",
+    "brandColor": "#111827"
+  }
+}

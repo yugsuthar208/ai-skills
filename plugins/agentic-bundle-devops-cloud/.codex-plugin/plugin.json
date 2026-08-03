@@ -1,0 +1,33 @@
+{
+  "name": "aasb-devops-cloud",
+  "version": "15.8.0",
+  "description": "Install the \"DevOps & Cloud\" editorial skill bundle from Agentic Awesome Skills.",
+  "author": {
+    "name": "yug and contributors",
+    "url": "https://github.com/yug/ai-skills"
+  },
+  "homepage": "https://github.com/yug/ai-skills",
+  "repository": "https://github.com/yug/ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "bundle",
+    "devops-cloud",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DevOps & Cloud",
+    "shortDescription": "DevOps & Infrastructure · 8 curated skills",
+    "longDescription": "For infrastructure and scaling. Covers Environment Setup Guide, Bash Linux, and 6 more skills.",
+    "developerName": "yug and contributors",
+    "category": "DevOps & Infrastructure",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/yug/ai-skills",
+    "brandColor": "#111827"
+  }
+}

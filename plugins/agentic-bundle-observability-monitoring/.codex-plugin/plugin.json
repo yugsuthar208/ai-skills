@@ -1,0 +1,33 @@
+{
+  "name": "aasb-observability-monitoring",
+  "version": "15.8.0",
+  "description": "Install the \"Observability & Monitoring\" editorial skill bundle from Agentic Awesome Skills.",
+  "author": {
+    "name": "yug and contributors",
+    "url": "https://github.com/yug/ai-skills"
+  },
+  "homepage": "https://github.com/yug/ai-skills",
+  "repository": "https://github.com/yug/ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "bundle",
+    "observability-monitoring",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Observability & Monitoring",
+    "shortDescription": "DevOps & Infrastructure · 6 curated skills",
+    "longDescription": "For production reliability. Covers Observability Engineer, Distributed Tracing, and 4 more skills.",
+    "developerName": "yug and contributors",
+    "category": "DevOps & Infrastructure",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/yug/ai-skills",
+    "brandColor": "#111827"
+  }
+}

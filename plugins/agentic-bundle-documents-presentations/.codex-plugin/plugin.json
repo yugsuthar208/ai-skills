@@ -1,0 +1,33 @@
+{
+  "name": "aasb-documents-presentations",
+  "version": "15.8.0",
+  "description": "Install the \"Documents & Presentations\" editorial skill bundle from Agentic Awesome Skills.",
+  "author": {
+    "name": "yug and contributors",
+    "url": "https://github.com/yug/ai-skills"
+  },
+  "homepage": "https://github.com/yug/ai-skills",
+  "repository": "https://github.com/yug/ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "bundle",
+    "documents-presentations",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Documents & Presentations",
+    "shortDescription": "Specialized Packs · 8 curated skills",
+    "longDescription": "For document-heavy workflows, spreadsheets, PDFs, and presentations. Covers Office Productivity, DOCX Official, and 6 more skills.",
+    "developerName": "yug and contributors",
+    "category": "Specialized Packs",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/yug/ai-skills",
+    "brandColor": "#111827"
+  }
+}

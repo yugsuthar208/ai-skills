@@ -1,0 +1,33 @@
+{
+  "name": "aasb-ddd-evented-architecture",
+  "version": "15.8.0",
+  "description": "Install the \"DDD & Evented Architecture\" editorial skill bundle from Agentic Awesome Skills.",
+  "author": {
+    "name": "yug and contributors",
+    "url": "https://github.com/yug/ai-skills"
+  },
+  "homepage": "https://github.com/yug/ai-skills",
+  "repository": "https://github.com/yug/ai-skills",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "skills",
+    "bundle",
+    "ddd-evented-architecture",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DDD & Evented Architecture",
+    "shortDescription": "Specialized Packs · 8 curated skills",
+    "longDescription": "For teams modeling complex domains and evolving toward evented systems. Covers Domain Driven Design, DDD Strategic Design, and 6 more skills.",
+    "developerName": "yug and contributors",
+    "category": "Specialized Packs",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/yug/ai-skills",
+    "brandColor": "#111827"
+  }
+}
