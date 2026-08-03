@@ -113,24 +113,27 @@ def update_repo_contributors_section(content: str, contributors: list[str], repo
 
 
 def fetch_contributors(repo: str) -> list[str]:
-    result = subprocess.run(
-        [
-            "gh",
-            "api",
-            f"repos/{repo}/contributors?per_page=100",
-            "--paginate",
-            "--slurp",
-        ],
-        check=True,
-        capture_output=True,
-        text=True,
-    )
-    payload = json.loads(result.stdout)
-    flat_entries: list[dict] = []
-    for page in payload:
-        if isinstance(page, list):
-            flat_entries.extend(entry for entry in page if isinstance(entry, dict))
-    return parse_contributors_response(flat_entries)
+    try:
+        result = subprocess.run(
+            [
+                "gh",
+                "api",
+                f"repos/{repo}/contributors?per_page=100",
+                "--paginate",
+                "--slurp",
+            ],
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+        payload = json.loads(result.stdout)
+        flat_entries: list[dict] = []
+        for page in payload:
+            if isinstance(page, list):
+                flat_entries.extend(entry for entry in page if isinstance(entry, dict))
+        return parse_contributors_response(flat_entries)
+    except Exception:
+        return []
 
 
 def sync_contributors(base_dir: str | Path, dry_run: bool = False) -> bool:
@@ -139,6 +142,8 @@ def sync_contributors(base_dir: str | Path, dry_run: bool = False) -> bool:
     contributors = fetch_contributors(metadata["repo"])
     readme_path = root / "README.md"
     original = readme_path.read_text(encoding="utf-8")
+    if CONTRIBUTOR_SECTION_HEADING not in original:
+        return False
     updated = update_repo_contributors_section(original, contributors, metadata["repo"])
 
     if updated == original:

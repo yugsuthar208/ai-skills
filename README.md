@@ -1,3 +1,4 @@
+<!-- registry-sync: version=1.0.0; skills=2001; stars=0; updated_at=2026-08-03T13:25:03+00:00 -->
 <div align="center">
 
   <img src="./assets/banner.jpg" alt="AI Skills Banner" width="100%" style="border-radius: 10px; max-height: 400px; object-fit: cover;" />
