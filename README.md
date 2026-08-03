@@ -41,7 +41,7 @@
 
 **AI Skills** is a high-performance, local-first skill discovery engine and execution stack tailored for autonomous coding agents (Codex, Claude Code, Cursor, Gemini CLI, Antigravity, and custom LLM agents).
 
-Codex or Claude inspects your project and chooses exact skills from the complete local AAS catalog. AAS Core does not rank or recommend them: its read-only `compose_stack` tool validates the agent-owned selection in memory. A client or the `aas` CLI can persist the selected stack as `aas-stack.json`. Every current catalog skill is individually searchable, readable, and available for agent selection, with a technical maximum of 128 selected skills per manifest.
+Codex or Claude inspects your project and chooses exact skills from the complete local AAS catalog. AAS Core does not rank or recommend them: its read-only `compose_stack` tool validates the agent-owned selection in memory, and a client or the `aas` CLI can persist it as `aas-stack.json` and produce an immutable plan before any target change.
 
 Unlike cloud-dependent skill registries, **AI Skills** provides **2,001+ pre-packaged, validated agentic skills** directly on your file system. Coding agents can inspect project contexts, query local skill catalogs via MCP (Model Context Protocol), validate stack boundaries, and generate reproducible `aas-stack.json` plans prior to taking action.
 
